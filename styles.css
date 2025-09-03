@@ -165,3 +165,48 @@
 .testimonials-nav button:active {
   transform: scale(0.95);
 }
+
+/*Accordion*/
+.accordion{
+    min-height: 100vh;
+      background: rgb(36, 36, 36);
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion-container {
+  border: 2px solid white;
+}
+
+.accordion-card {
+  margin: 20px;
+  padding: 20px;
+  background: rgb(73, 73, 73);
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  width: 40rem;
+}
+
+.accordion-card-title {
+  display: flex;
+  justify-content: space-between;
+  width: 50rem;
+}
+
+.accordion-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.accordion-card-info {
+  width: 30rem;
+  padding: 20px 0;
+  line-height: 1.3;
+}
