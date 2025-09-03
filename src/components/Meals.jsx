@@ -15,7 +15,7 @@ const Meals = () => {
    },[]);
 
    const itemsList=()=>{
-   if (items.length>0){ return items.map(({strMeal,strMealThumb, idMeal})=>{
+   if (items.length>0){ return items.slice(0,6).map(({strMeal,strMealThumb, idMeal})=>{
        return( <section key={idMeal} className='meals-card'>
         <img src={strMealThumb} alt={strMeal}  className='meals-img'/> 
         <section className='meals-content'>
