@@ -13,6 +13,7 @@ const HiddenSearchBar = () => {
     }
   return (
     <section className='search-container' style={{backgroundColor: bgColor}} onClick={handleClick}>
+        <h1 style={{textAlign:"center" , color: showInput? "white": "black"}}>Click to Search</h1>
         {
         showInput ? ( <input className='search-input' placeholder='search ....' type="text" /> ):(<FaSearch onClick={()=>setShowInput(true)}/>)
         }

@@ -6,8 +6,8 @@ import HiddenSearchBar from './components/HiddenSearchBar'
 const App = () => {
   return (
     <div>
-    {/* <Meals/>
-    <ToggleBackgroundColor/> */}
+    /* <Meals/>
+    <ToggleBackgroundColor/> */
     <HiddenSearchBar/>
     </div>
   )
