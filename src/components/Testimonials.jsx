@@ -31,13 +31,13 @@ const Testimonials = () => {
             <div className='testimonials-quote'>
                 {testimonials[currentIndex].quote}
             </div>
-            <div className='testimonials-auther'>
-                {testimonials[currentIndex].auther}
+            <div className='testimonials-author'>
+                - {testimonials[currentIndex].auther}
             </div>
             <div className='testimonials-nav'>
                 <button onClick={handlePrev}>prev</button>
                 <button onClick={handleNext}>next</button>
-        </div>
+        </div> 
     </div>
 
     </div>
