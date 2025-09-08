@@ -1,78 +1,58 @@
-🚀 React UI Lab
-A personal lab of beginner-to-intermediate React components built with Vite for fast development and modern tooling. Inspired by HuXn WebDev’s 50+ Hour React Monster Class, this project showcases interactive UI elements and core React concepts like state, props, conditional rendering, and effects.
+# 🚀 React UI Lab
 
-🧩 Featured Components
-🔍 Hidden Search Bar
+A personal lab of beginner-to-intermediate React components built with **Vite** for fast development and modern tooling. This project showcases interactive UI elements and core React concepts like state, props, conditional rendering, and effects.
+
+## 🧩 Featured Components
+
+### 🔍 Hidden Search Bar
 A sleek search input that reveals itself on interaction.
 
-Toggle visibility with a button
+- Toggle visibility with a button
+- Controlled input using `useState`
+- Smooth transitions with CSS
+- Ideal for minimalist UIs
 
-Controlled input using useState
-
-Smooth transitions with CSS
-
-Ideal for minimalist UIs
-
-🍽️ Meals (Meals.jsx)
+### 🍽️ Meals (`Meals.jsx`)
 Displays a list of meals fetched from an API or mock data.
 
-Uses useEffect for data fetching
+- Uses `useEffect` for data fetching
+- Maps over meal objects to render cards
+- Includes loading and error states
+- Responsive layout with Flexbox
 
-Maps over meal objects to render cards
-
-Includes loading and error states
-
-Responsive layout with Flexbox
-
-💬 Testimonials
+### 💬 Testimonials
 A carousel-style component for showcasing user feedback.
 
-Dynamic rendering from an array of testimonials
+- Dynamic rendering from an array of testimonials
+- Optional auto-slide or manual navigation
+- Styled with Flexbox and transitions
 
-Optional auto-slide or manual navigation
-
-Styled with Flexbox and transitions
-
-📂 Accordion
+### 📂 Accordion
 Expandable sections for FAQs or grouped content.
 
-Toggle open/close with useState
+- Toggle open/close with `useState`
+- Conditional rendering for content
+- Clean layout with icons and transitions
 
-Conditional rendering for content
-
-Clean layout with icons and transitions
-
-🎨 Toggle Background Color
+### 🎨 Toggle Background Color
 Simple theme switcher for light/dark or custom backgrounds.
 
-Uses useState to track theme
+- Uses `useState` to track theme
+- Applies dynamic class or inline styles
+- Can be extended to support multiple themes
 
-Applies dynamic class or inline styles
+## ⚙️ Tech Stack
 
-Can be extended to support multiple themes
+- React 18+ (Hooks, JSX, functional components)
+- Vite for fast refresh and build optimization
+- CSS Modules or Tailwind CSS
+- ESLint + Prettier for code quality
 
-⚙️ Tech Stack
-React 18+ (Hooks, JSX, functional components)
+## 📦 Getting Started
 
-Vite for fast refresh and build optimization
-
-CSS Modules or Tailwind CSS
-
-ESLint + Prettier for code quality
-
-📦 Getting Started
-bash
+```bash
 git clone https://github.com/Mike-woub/react-ui-lab.git
 cd react-ui-lab
 npm install
 npm run dev
-🧠 Purpose
-This lab is designed to:
 
-Practice React fundamentals through real UI components
-
-Serve as a reusable base for future projects
-
-Explore layout, interactivity, and styling patterns
-
-Build a portfolio of clean, functional React code
