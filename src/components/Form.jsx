@@ -55,6 +55,7 @@ const validate =(e)=>{
 }
 
   return <>
+  <div className="form-container">
         <div className='card'>
             <div className='card-image'></div>
              <form>
@@ -70,6 +71,7 @@ const validate =(e)=>{
              </form>
 
         </div>
+    </div>
 
     </>
   

@@ -5,6 +5,7 @@ import HiddenSearchBar from './components/HiddenSearchBar'
 import Testimonials from './components/Testimonials'
 import Accordion from './components/Accordion'
 import { accordionData } from './utils/content'
+import Form from './components/Form'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Accordion title={title} content={content}/>
       ))}
     </div>
+    <Form/>
 
     </div>
   )
