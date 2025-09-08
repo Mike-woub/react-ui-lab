@@ -48,6 +48,31 @@ Simple theme switcher for light/dark or custom backgrounds.
 - CSS Modules or Tailwind CSS
 - ESLint + Prettier for code quality
 
+### 📝 Form Validation Component
+
+A responsive form with real-time validation logic for user registration. Built using React hooks and styled with dynamic border colors based on input validity.
+
+**Features**
+- Controlled inputs for username, email, password, and confirm password
+- Real-time validation with error messages
+- Dynamic border color feedback (green for valid, red for invalid)
+- Prevents submission unless all fields are valid
+- Easily extendable for backend integration or advanced validation
+
+**Validation Rules**
+- Username must be at least 4 characters
+- Email must include an `@` symbol
+- Password must be at least 8 characters
+- Confirm Password must match Password
+
+**Tech Stack**
+- React (`useState`)
+- CSS for styling and visual feedback
+- Vite for fast refresh and build optimization
+
+**Component File**
+
+
 ## 📦 Getting Started
 
 ```bash
