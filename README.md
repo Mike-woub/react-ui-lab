@@ -1,12 +1,78 @@
-# React + Vite
+🚀 React UI Lab
+A personal lab of beginner-to-intermediate React components built with Vite for fast development and modern tooling. Inspired by HuXn WebDev’s 50+ Hour React Monster Class, this project showcases interactive UI elements and core React concepts like state, props, conditional rendering, and effects.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🧩 Featured Components
+🔍 Hidden Search Bar
+A sleek search input that reveals itself on interaction.
 
-Currently, two official plugins are available:
+Toggle visibility with a button
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Controlled input using useState
 
-## Expanding the ESLint configuration
+Smooth transitions with CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ideal for minimalist UIs
+
+🍽️ Meals (Meals.jsx)
+Displays a list of meals fetched from an API or mock data.
+
+Uses useEffect for data fetching
+
+Maps over meal objects to render cards
+
+Includes loading and error states
+
+Responsive layout with Flexbox
+
+💬 Testimonials
+A carousel-style component for showcasing user feedback.
+
+Dynamic rendering from an array of testimonials
+
+Optional auto-slide or manual navigation
+
+Styled with Flexbox and transitions
+
+📂 Accordion
+Expandable sections for FAQs or grouped content.
+
+Toggle open/close with useState
+
+Conditional rendering for content
+
+Clean layout with icons and transitions
+
+🎨 Toggle Background Color
+Simple theme switcher for light/dark or custom backgrounds.
+
+Uses useState to track theme
+
+Applies dynamic class or inline styles
+
+Can be extended to support multiple themes
+
+⚙️ Tech Stack
+React 18+ (Hooks, JSX, functional components)
+
+Vite for fast refresh and build optimization
+
+CSS Modules or Tailwind CSS
+
+ESLint + Prettier for code quality
+
+📦 Getting Started
+bash
+git clone https://github.com/Mike-woub/react-ui-lab.git
+cd react-ui-lab
+npm install
+npm run dev
+🧠 Purpose
+This lab is designed to:
+
+Practice React fundamentals through real UI components
+
+Serve as a reusable base for future projects
+
+Explore layout, interactivity, and styling patterns
+
+Build a portfolio of clean, functional React code
